@@ -1,2 +1,2 @@
 # microservices
-Full fledged spring cloud application
+This application will contain all microservices related setups and code needed
