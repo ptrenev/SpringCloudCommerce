@@ -1,0 +1,42 @@
+openapi: 3.0.3
+info:
+  title: Order API
+  version: 1.0.0
+paths:
+  /api/v1/orders:
+    post:
+      summary: Create a new order
+      operationId: createOrder
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderRequest'
+      responses:
+        '201':
+          description: Order created successfully
+components:
+  schemas:
+    OrderRequest:
+      type: object
+      properties:
+        orderLineItemsDtoList:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderLineItemsDto'
+
+    OrderLineItemsDto:
+      type: object
+      properties:
+        id:
+          type: integer
+          format: int64
+        skuCode:
+          type: string
+        price:
+          type: number
+          format: double
+        quantity:
+          type: integer
+          format: int32
