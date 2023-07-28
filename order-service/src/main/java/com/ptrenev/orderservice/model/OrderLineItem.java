@@ -1,4 +1,4 @@
-package com.ptrenev.orderservice.orderservice.model;
+package com.ptrenev.orderservice.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.*;

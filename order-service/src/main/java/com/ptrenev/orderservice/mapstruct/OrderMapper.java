@@ -1,6 +1,6 @@
-package com.ptrenev.orderservice.orderservice.mapstruct;
+package com.ptrenev.orderservice.mapstruct;
 
-import com.ptrenev.orderservice.orderservice.model.Order;
+import com.ptrenev.orderservice.model.Order;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.openapitools.model.OrderRequest;

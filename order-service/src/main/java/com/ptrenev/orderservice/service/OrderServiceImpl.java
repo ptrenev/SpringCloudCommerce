@@ -1,7 +1,7 @@
-package com.ptrenev.orderservice.orderservice.service;
+package com.ptrenev.orderservice.service;
 
-import com.ptrenev.orderservice.orderservice.model.Order;
-import com.ptrenev.orderservice.orderservice.repository.OrderRepository;
+import com.ptrenev.orderservice.model.Order;
+import com.ptrenev.orderservice.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;

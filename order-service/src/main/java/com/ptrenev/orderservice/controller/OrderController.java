@@ -1,8 +1,8 @@
-package com.ptrenev.orderservice.orderservice.controller;
+package com.ptrenev.orderservice.controller;
 
-import com.ptrenev.orderservice.orderservice.mapstruct.OrderMapper;
-import com.ptrenev.orderservice.orderservice.model.Order;
-import com.ptrenev.orderservice.orderservice.service.OrderService;
+import com.ptrenev.orderservice.model.Order;
+import com.ptrenev.orderservice.mapstruct.OrderMapper;
+import com.ptrenev.orderservice.service.OrderService;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
